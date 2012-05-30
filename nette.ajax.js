@@ -107,7 +107,7 @@ var nette = function () {
 		if (inner.initialized) throw 'Cannot manipulate nette-ajax extensions after initialization.';
 
 		if (callbacks === undefined) {
-			inner.extensions[name];
+			return inner.extensions[name];
 		} else if (!callbacks) {
 			inner.extensions[name] = undefined;
 		} else if (inner.extensions[name]) {
