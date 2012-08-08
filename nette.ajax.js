@@ -127,7 +127,7 @@ var nette = function () {
 	 * Executes AJAX request. Attaches listeners and events.
 	 *
 	 * @param  {object} settings
-	 * @param  {Element|null} ussually Anchor or Form
+	 * @param  {Element|null} usually Anchor or Form
 	 * @param  {event|null} event causing the request
 	 * @return {jqXHR|null}
 	 */
